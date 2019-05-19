@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lexor.lex" />
+    <None Include="lexor_keyword.gperf" />
+    <None Include="altmult_accum.v" />
+    <None Include="altmult_add.v" />
+    <None Include="altpll.v" />
+    <None Include="altsquare.v" />
+    <None Include="altsyncram.v" />
+    <None Include="lpm_mult.v" />
+    <None Include="parse.y" />
+    <None Include="syn-rules.y" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="altmult_laccum.v" />
+    <None Include="..\..\..\testbench\N12\N12\N12.v" />
+    <None Include="port_name.txt" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d-lpm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gates.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="async.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attrib.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cprop.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="del-redundance.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="design_dump.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detect_bufif.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dup_expr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elab_anet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elab_expr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elab_lval.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elab_net.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elab_pexpr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elab_scope.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elab_sig.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elaborate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eval.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_attrib.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_tree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="expr_synth.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FF_D_connected_Q.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HName.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lexor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lexor_keyword.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="link_const.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Module.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_assign.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_design.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_event.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_expr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_force.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_func.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_link.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_modulo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_nex_input.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_nex_output.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_proc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_scope.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_udp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_variable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetLatch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netlist.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMemory2FF.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netmisc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nodangle.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outport_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pad_to_width.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_misc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PData.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PDelays.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PEvent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PExpr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pform.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pform_dump.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PFunction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PGate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PTask.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PUdp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PWire.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunInfoRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="set_width.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHeap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbol_search.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sync.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="synth2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="synth.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_funcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="target.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="targets.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t-dll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t-dll-api.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t-dll-expr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="t-dll-proc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="verinum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="verireal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xnfio.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attrib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="edif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fpga_priv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ivl_target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lexor_keyword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="named.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netmisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PDelays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PExpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PGate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PUdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PWire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunInfoRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="t-dll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="verinum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="verireal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

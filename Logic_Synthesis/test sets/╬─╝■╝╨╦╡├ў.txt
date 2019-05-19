@@ -1,0 +1,37 @@
+.v
+cnn_top0.top:dsp去掉clock，ena,accu_三个端口的版本
+cnn_top1.top:dsp只去掉aclr的版本。
+
+
+.blif 综合后
+cnn_top1_0.blif:一层神经网络的blif, 根据代价函数得出来的mem
+cnn_top1_1.blif:一层神经网络的blif, 人为控制mem的数据位为1的版本
+
+cnn_top2_0.blif:整个cnn网络的blif,根据代价函数得出来的mem
+cnn_top2_1.blif:整个cnn网络的blif,人为控制mem的数据位为1的版本
+
+
+.blif 映射后
+cnn_top1_1_map.blif:一层神经网络映射后的blif, 人为控制mem的数据位为1的版本
+cnn_top2_1_map.blif:整个cnn网络映射后的blif, 人为控制mem的数据位为1的版本
+
+
+
+neo
+
+文件夹：
+CNN_RTL_Source:参数化源代码
+CNN_RTL_Source_Modified:逆参数化后的代码，放在quartus直接可以运行
+quartus_cnn:quartues工程，源代码来源于CNN_RTL_Source_Modified:
+
+
+.v
+neo.v ：处理后的Verilog代码，供iverilog综合
+neo_temp.v：手动处理需要的中间代码段
+
+.blif综合后
+neo_0.blif：根据代价函数得出来的mem
+neo_1.blif：人为控制mem的数据位为1的版本
+
+neo.clk：不知道干什么的，看着文件很大万一以后用到
+

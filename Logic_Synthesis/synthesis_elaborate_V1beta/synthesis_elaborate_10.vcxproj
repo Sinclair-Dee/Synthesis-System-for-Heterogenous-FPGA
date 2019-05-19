@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{29E2F007-9AB8-49C1-AA5C-2E0EAED46AD6}</ProjectGuid>
+    <RootNamespace>synthesis_elaborate_10</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\testbench\N12\N12\N12.v" />
+    <None Include="altmult_accum.v" />
+    <None Include="altmult_add.v" />
+    <None Include="altmult_laccum.v" />
+    <None Include="altpll.v" />
+    <None Include="altsquare.v" />
+    <None Include="altsyncram.v" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="lexor.lex" />
+    <None Include="lexor_keyword.gperf" />
+    <None Include="lpm_mult.v" />
+    <None Include="parse.y" />
+    <None Include="port_name.txt" />
+    <None Include="syn-rules.y" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="async.cc" />
+    <ClCompile Include="Attrib.cc" />
+    <ClCompile Include="cprop.cc" />
+    <ClCompile Include="d-lpm.c" />
+    <ClCompile Include="del-redundance.cc" />
+    <ClCompile Include="design_dump.cc" />
+    <ClCompile Include="detect_bufif.cc" />
+    <ClCompile Include="dup_expr.cc" />
+    <ClCompile Include="edif.c" />
+    <ClCompile Include="elaborate.cc" />
+    <ClCompile Include="elab_anet.cc" />
+    <ClCompile Include="elab_expr.cc" />
+    <ClCompile Include="elab_lval.cc" />
+    <ClCompile Include="elab_net.cc" />
+    <ClCompile Include="elab_pexpr.cc" />
+    <ClCompile Include="elab_scope.cc" />
+    <ClCompile Include="elab_sig.cc" />
+    <ClCompile Include="emit.cc" />
+    <ClCompile Include="eval.cc" />
+    <ClCompile Include="eval_attrib.cc" />
+    <ClCompile Include="eval_tree.cc" />
+    <ClCompile Include="expr_synth.cc" />
+    <ClCompile Include="FF_D_connected_Q.cc" />
+    <ClCompile Include="flag.cpp" />
+    <ClCompile Include="fpga.c" />
+    <ClCompile Include="functor.cc" />
+    <ClCompile Include="gates.c" />
+    <ClCompile Include="generic.c" />
+    <ClCompile Include="HName.cc" />
+    <ClCompile Include="lexor.cc" />
+    <ClCompile Include="lexor_keyword.cc" />
+    <ClCompile Include="LineInfo.cc" />
+    <ClCompile Include="link_const.cc" />
+    <ClCompile Include="main.cc" />
+    <ClCompile Include="Module.cc" />
+    <ClCompile Include="NetLatch.cc" />
+    <ClCompile Include="netlist.cc" />
+    <ClCompile Include="NetMemory2FF.cc" />
+    <ClCompile Include="netmisc.cc" />
+    <ClCompile Include="net_assign.cc" />
+    <ClCompile Include="net_design.cc" />
+    <ClCompile Include="net_event.cc" />
+    <ClCompile Include="net_expr.cc" />
+    <ClCompile Include="net_force.cc" />
+    <ClCompile Include="net_func.cc" />
+    <ClCompile Include="net_link.cc" />
+    <ClCompile Include="net_modulo.cc" />
+    <ClCompile Include="net_nex_input.cc" />
+    <ClCompile Include="net_nex_output.cc" />
+    <ClCompile Include="net_proc.cc" />
+    <ClCompile Include="net_scope.cc" />
+    <ClCompile Include="net_udp.cc" />
+    <ClCompile Include="net_variable.cc" />
+    <ClCompile Include="nodangle.cc" />
+    <ClCompile Include="outport_buffer.cc" />
+    <ClCompile Include="pad_to_width.cc" />
+    <ClCompile Include="parse.cc" />
+    <ClCompile Include="parse_misc.cc" />
+    <ClCompile Include="PData.cc" />
+    <ClCompile Include="PDelays.cc" />
+    <ClCompile Include="PEvent.cc" />
+    <ClCompile Include="PExpr.cc" />
+    <ClCompile Include="pform.cc" />
+    <ClCompile Include="pform_dump.cc" />
+    <ClCompile Include="PFunction.cc" />
+    <ClCompile Include="PGate.cc" />
+    <ClCompile Include="PTask.cc" />
+    <ClCompile Include="PUdp.cc" />
+    <ClCompile Include="PWire.cc" />
+    <ClCompile Include="RunInfoRecord.cpp" />
+    <ClCompile Include="set_width.cc" />
+    <ClCompile Include="Statement.cc" />
+    <ClCompile Include="StringHeap.cc" />
+    <ClCompile Include="symbol_search.cc" />
+    <ClCompile Include="sync.cc" />
+    <ClCompile Include="synth.cc" />
+    <ClCompile Include="synth2.cc" />
+    <ClCompile Include="sys_funcs.cc" />
+    <ClCompile Include="t-dll-api.cc" />
+    <ClCompile Include="t-dll-expr.cc" />
+    <ClCompile Include="t-dll-proc.cc" />
+    <ClCompile Include="t-dll.cc" />
+    <ClCompile Include="tables.c" />
+    <ClCompile Include="target.cc" />
+    <ClCompile Include="targets.cc" />
+    <ClCompile Include="verinum.cc" />
+    <ClCompile Include="verireal.cc" />
+    <ClCompile Include="xnfio.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attrib.h" />
+    <ClInclude Include="compiler.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="device.h" />
+    <ClInclude Include="edif.h" />
+    <ClInclude Include="flag.h" />
+    <ClInclude Include="fpga_priv.h" />
+    <ClInclude Include="functor.h" />
+    <ClInclude Include="generic.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="HName.h" />
+    <ClInclude Include="ivl_target.h" />
+    <ClInclude Include="lexor_keyword.h" />
+    <ClInclude Include="LineInfo.h" />
+    <ClInclude Include="Module.h" />
+    <ClInclude Include="named.h" />
+    <ClInclude Include="NetLatch.h" />
+    <ClInclude Include="netlist.h" />
+    <ClInclude Include="netmisc.h" />
+    <ClInclude Include="parse.h" />
+    <ClInclude Include="parse_api.h" />
+    <ClInclude Include="parse_misc.h" />
+    <ClInclude Include="PData.h" />
+    <ClInclude Include="PDelays.h" />
+    <ClInclude Include="PEvent.h" />
+    <ClInclude Include="PExpr.h" />
+    <ClInclude Include="pform.h" />
+    <ClInclude Include="PGate.h" />
+    <ClInclude Include="PTask.h" />
+    <ClInclude Include="PUdp.h" />
+    <ClInclude Include="PWire.h" />
+    <ClInclude Include="RunInfoRecord.h" />
+    <ClInclude Include="Statement.h" />
+    <ClInclude Include="StringHeap.h" />
+    <ClInclude Include="svector.h" />
+    <ClInclude Include="t-dll.h" />
+    <ClInclude Include="target.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="verinum.h" />
+    <ClInclude Include="verireal.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

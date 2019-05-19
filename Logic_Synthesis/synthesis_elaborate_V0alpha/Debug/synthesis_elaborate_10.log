@@ -1,0 +1,18 @@
+﻿Build started 2014-4-30 11:55:45.
+     1>Project "F:\vs2010_project\synthesis_elaborate_10\synthesis_elaborate_10\synthesis_elaborate_10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\synthesis_elaborate_10.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         synthesis_elaborate_10.vcxproj -> F:\vs2010_project\synthesis_elaborate_10\Debug\synthesis_elaborate_10.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\synthesis_elaborate_10.unsuccessfulbuild".
+         Touching "Debug\synthesis_elaborate_10.lastbuildstate".
+     1>Done Building Project "F:\vs2010_project\synthesis_elaborate_10\synthesis_elaborate_10\synthesis_elaborate_10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.43

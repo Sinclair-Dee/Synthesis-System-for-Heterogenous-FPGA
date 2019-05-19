@@ -1,0 +1,33 @@
+#Sat May 20 19:53:34 GMT+08:00 2017
+project.path.29e2f007-9ab8-49c1-aa5c-2e0eaed46ad6=synthesis_elaborate_10/synthesis_elaborate_10
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.advanced.options=
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.cdt.configuration=CPPTEST_USE_ACTIVE_CONFIG
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.win32.x86=cl.exe
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.cpp.win32.x86=cl.exe
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=vc_10_0
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.compiler.options.win32.x86=${cpptest\:original_options} -DPARASOFT_CPPTEST -I.
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.connected.6x.projects=
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.dependency.files.paths=${project_loc}/Makefile
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.dsp.env.var.mode=ENV_PATCH_PREPEND_MODE
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.edg.multibyte.chars.is.source.handling=AUTO
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.evc.env.var.mode=ENV_PATCH_PREPEND_MODE
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.extractor.id=vs71_extractor_id
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.linker.command.win32.x86=link.exe
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.linker.options.win32.x86=${cpptest\:original_options} ${cpptest\:project_lib_files}
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.make.command.line=make -i -B CXX\=${CPPTEST_SCAN} CC\=${CPPTEST_SCAN} LD\=${CPPTEST_SCAN}
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.make.scan.hash.code.validation=true
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.make.working.dir=${project_loc}
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.make_always_build=false
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.ode_auto_scan_mode=on_changes
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.ode_delete_bdf_postaction=false
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.ode_incremental_build=false
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=${project_loc}/cpptestscan.bdf
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.preference.store.version=1.1
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.run_orig_cmd_for_parallel_proj_bdf=true
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.runtime.location=${cpptest\:engine_loc}/runtime
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.synchronize_with_project_settings=true
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.test.case.location.patterns=*
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.test.ware.location=${workspace_loc}/.cpptest/${project_name}
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.vc71.configuration=CPPTEST_USE_ACTIVE_CONFIG
+synthesis_elaborate_10/synthesis_elaborate_10//com.parasoft.xtest.checkers.api.cpp.options.working.dir=${project_loc}
+version=1

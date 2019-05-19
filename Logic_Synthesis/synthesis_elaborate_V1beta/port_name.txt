@@ -1,0 +1,61 @@
+HalfDSPBlock
+						dataa0, datab0,dataa1, dataa2, 
+						dataa2, datab2,dataa3, dataa3, 
+						//scan
+						scanina, scanouta,
+						//chain
+						chainin, chainout,
+
+						//clock/ena/aclr
+						clock,  ena, aclr, 
+
+						//control
+						zeroloopback, 
+						accumsload, 
+						zerochainout, 
+						chainoutround, 
+						chainsaturate, 
+						signa, 
+						signb, 
+						outputround, 
+						outsaturate, 
+						rotate, 
+						shiftright, 
+
+						//overflow
+						OverFlow, 
+						ChainOutSatOverFlow, 
+						//out
+						result);
+
+
+if(Control_Coarse_DSP == Coarse_DSP){
+	HalfDSPBlock*mult_acc = new HalfDSPBlock(scope, scope->local_symbol(),
+		//data
+		w_dataa, w_datab, w_datac,w_datad, 
+		//scan
+		w_scanina, w_scanouta,
+		//chain
+		w_chainin, w_chainout,
+
+		//clock/ena/aclr
+		w_clock,w_ena, w_aclr, 
+
+		//control
+		0,0,0,0,0,0,0,0,0,0,0,
+		 w_zeroloopback, 
+	     w_accumsload, 
+		 w_zerochainout, 
+		 w_chainoutround, 
+		 w_chainsaturate, 
+		 w_signa, 
+		 w_signb, 
+		 w_outputround, 
+		 w_outsaturate, 
+		 w_rotate, 
+		 w_shiftright, 
+		//overflow
+		 w_OverFlow, 
+		 w_ChainOutSatOverFlow, 
+		//out
+		 w_result);

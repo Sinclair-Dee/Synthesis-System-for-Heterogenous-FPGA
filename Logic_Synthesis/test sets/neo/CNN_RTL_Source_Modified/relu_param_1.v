@@ -1,0 +1,41 @@
+`include "param_1.vh"
+module relu_param_1 (
+
+	clock,
+	enable,
+	reset,		 
+	result,
+	result_relu,
+	count_sload
+	);	
+
+	//data width parameter		
+parameter	ACCUM_DATA_WIDTH=44;		
+parameter	DATA_WIDTH=16;	
+parameter COUNT_SLOAD_BITWIDTH = 4;	
+
+	input clock;
+	input enable;
+	input reset;
+	input [COUNT_SLOAD_BITWIDTH-1:0]count_sload;
+	 
+	input wire signed [ACCUM_DATA_WIDTH-1: 0] result;
+
+	output wire signed [DATA_WIDTH-1: 0] result_relu;
+	
+	
+	 
+	reg signed [DATA_WIDTH-1: 0] result_jiewei ;
+
+always @ (posedge clock)
+
+	if(count_sload==2) 					 
+		result_jiewei <=  {result[ACCUM_DATA_WIDTH-1],result[26:12]};					 
+
+	
+assign	result_relu=(result_jiewei[DATA_WIDTH-1])?16'b0:result_jiewei;
+	
+endmodule	
+
+
+

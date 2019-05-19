@@ -1,0 +1,25 @@
+//	 运行信息报告 
+
+//	2017-3-13 15:36:34
+//	passkey2.6 alpha
+// 中国科学院电子学研究所十一室
+
+-----------------------------------------
+synthesis......
+  1. Write
+Info:   2. WriteInfo
+Warning:   3.WriteWarning
+Erro:   4. WriteErro
+//	 运行信息报告
+//	2017-3-13 18:49:2
+//
+
+//可重构类脑计算芯片逻辑综合系统
+// 中国科学院电子学研究所十一室
+
+-----------------------------------------
+synthesis......
+  1. Write
+Info:   2. WriteInfo
+Warning:   3.WriteWarning
+Erro:   4. WriteErro
