@@ -1,2 +1,2 @@
-# Synthesis-System-for-Heterogenous-FPGA
-Synthesis System for Heterogenous FPGA based on iVerilog and ABC
+# Logic-Synthesis-for-Heterogenous-FPGA
+Logic Synthesis for Heterogenous FPGA based on iVerilog
