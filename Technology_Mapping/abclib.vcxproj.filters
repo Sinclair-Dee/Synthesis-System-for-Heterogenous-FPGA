@@ -1,0 +1,3515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{79da5e57-bd1b-4032-9687-9838fba12838}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{ab594781-92ff-47a8-97bb-c19fc54b597f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\abc">
+      <UniqueIdentifier>{8f1604d7-31a8-4611-9f8a-7cbcff54fd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\abci">
+      <UniqueIdentifier>{455bfec7-9429-43c1-8509-ef7e9ad19f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\cmd">
+      <UniqueIdentifier>{0caa1fd8-ea60-43da-9dd8-4ab9720aedcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\io">
+      <UniqueIdentifier>{c8d6ba21-71bc-4809-9853-051e3100015e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\main">
+      <UniqueIdentifier>{1bccd3dd-26ac-4350-8b08-bf74ff92de14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\ver">
+      <UniqueIdentifier>{63844458-547b-4ad4-b104-80b013adf75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base\test">
+      <UniqueIdentifier>{6d6ca008-ab25-407c-bc1e-a43a328b36f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd">
+      <UniqueIdentifier>{392fb78f-4463-4a39-8408-9c850d89f758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd\cudd">
+      <UniqueIdentifier>{e2da6ce8-fa79-4401-bebe-3af5bb07c0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd\epd">
+      <UniqueIdentifier>{a66501ad-7867-40c4-a890-17fb3514c9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd\mtr">
+      <UniqueIdentifier>{7fc21c96-74d2-4a47-b711-5e5dd115c112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd\parse">
+      <UniqueIdentifier>{2b3c9485-b4c8-431f-b21b-14790dab5250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd\dsd">
+      <UniqueIdentifier>{fc6575f8-69ef-4064-86fc-bd97420951ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd\reo">
+      <UniqueIdentifier>{20edb356-4203-471f-9df2-64eaf55d54c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bdd\cas">
+      <UniqueIdentifier>{ba4c3b04-01c6-4eb7-a8da-eb7cf693170d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat">
+      <UniqueIdentifier>{6aa15faf-5cc9-47f6-9483-207ca9bbf402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\msat">
+      <UniqueIdentifier>{0b6a845e-ebd4-4580-978a-2a7069687e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\csat">
+      <UniqueIdentifier>{f3ad3563-331f-4ed6-ab19-4d7ba1cc53c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\bsat">
+      <UniqueIdentifier>{51156927-300c-4f11-9cc3-e0f851eda0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\proof">
+      <UniqueIdentifier>{bde140de-6897-410b-83a2-ce8fc916e97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\psat">
+      <UniqueIdentifier>{47b77e4a-cf2c-4779-b659-eca2ca3f931e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\lsat">
+      <UniqueIdentifier>{c2a26cbc-1d5f-46de-97b2-45c3ca71d894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\cnf">
+      <UniqueIdentifier>{b9d95408-60ec-4646-80b9-91b2ba67096c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sat\bmc">
+      <UniqueIdentifier>{2a95678d-9311-4850-8850-0a7f9bc1c853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt">
+      <UniqueIdentifier>{136e3866-82cb-4e9f-88ea-86d1c9f20a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\fxu">
+      <UniqueIdentifier>{447ad304-9c5a-4a77-ba2c-b81763a347ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\rwr">
+      <UniqueIdentifier>{f6ca16ec-a343-480e-8f94-55b694967bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\cut">
+      <UniqueIdentifier>{b0c0229d-cb05-4999-aebe-f563356cb32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\sim">
+      <UniqueIdentifier>{b4786bf0-1ee7-4670-a9db-5e92e2b2eda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\ret">
+      <UniqueIdentifier>{a4ccba2a-a983-47c3-b7d0-e2e6041038d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\res">
+      <UniqueIdentifier>{9f6d5c16-b3f7-4b6c-aa32-a11aba08a952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\lpk">
+      <UniqueIdentifier>{a8c49eb4-15cb-4e31-b29f-edf592ef7101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\mfs">
+      <UniqueIdentifier>{4e55f97e-9e6c-42da-b033-031554610ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\cgt">
+      <UniqueIdentifier>{4bddecd4-78a5-418d-947b-0e07b2dadf3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\csw">
+      <UniqueIdentifier>{95a71e31-1d78-4c73-ac67-f973f51586af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\dar">
+      <UniqueIdentifier>{a8a54d00-7e2c-4f2b-9077-4ce35ad22630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\rwt">
+      <UniqueIdentifier>{8dd783fa-841c-4eb2-bca4-cd0227eca016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\nwk">
+      <UniqueIdentifier>{a513d5b7-b614-45ea-9dfd-4693255a5ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\dau">
+      <UniqueIdentifier>{061115d3-988f-4290-aa53-fd1b4cf3dd3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opt\sfm">
+      <UniqueIdentifier>{fc2047c4-6195-4c7d-ace1-1976fa71db75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map">
+      <UniqueIdentifier>{767b6523-de0d-40bc-9fc5-b7dfda7a7b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map\mapper">
+      <UniqueIdentifier>{8c58e3da-539b-4f54-af47-d094b73fcbff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map\mio">
+      <UniqueIdentifier>{ea6b5fa1-12ac-417c-9146-5b3487581930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map\super">
+      <UniqueIdentifier>{23c24a60-4feb-4390-ac47-2dffec85e751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map\if">
+      <UniqueIdentifier>{5d2abd96-e20f-4b7d-803a-4154631a9810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map\amap">
+      <UniqueIdentifier>{c472d34d-1769-451f-8502-f13ce724cc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map\cov">
+      <UniqueIdentifier>{e9f59ef8-c0cf-4ec8-b2fd-7a7fbd667bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map\scl">
+      <UniqueIdentifier>{44692a5f-333d-42b8-8bd1-6305afae5e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc">
+      <UniqueIdentifier>{b32ac490-4fea-4c87-b8b9-2d1bcde9b0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\extra">
+      <UniqueIdentifier>{c3b053e5-3a19-4911-8cba-01a816da7822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\st">
+      <UniqueIdentifier>{fffd55c8-57de-4668-8b82-0d936c7f84da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\mvc">
+      <UniqueIdentifier>{70bc9556-b10c-448c-90d2-24ce097f3c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\vec">
+      <UniqueIdentifier>{279aeed2-be16-4f49-8b93-16ae6d9686b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\util">
+      <UniqueIdentifier>{6e26b7ff-2d38-4f7b-8616-50d477a6bd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\nm">
+      <UniqueIdentifier>{89b91eaa-2244-477e-834e-cc7bd1a7da64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\hash">
+      <UniqueIdentifier>{ef4bb960-fbb5-400f-81a1-22c69caa3bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\bzlib">
+      <UniqueIdentifier>{ca9da4c2-a433-460f-852c-0f0487784d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\zlib">
+      <UniqueIdentifier>{90a02e25-dc59-45ac-98df-708f83138856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\bar">
+      <UniqueIdentifier>{f00b3ad8-d82c-4447-b371-7970154d9cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\bbl">
+      <UniqueIdentifier>{f36ef112-8704-4d3e-aecf-0639f65b7bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\mem">
+      <UniqueIdentifier>{d37128d9-ca2b-40e7-930e-c81a60feaaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc\tim">
+      <UniqueIdentifier>{566c21fe-7edd-4572-9dc4-c572c3205201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai">
+      <UniqueIdentifier>{26ffed56-8b2e-41d3-a6d1-9cec9fcad580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\hop">
+      <UniqueIdentifier>{466a9abf-a144-40b8-be6f-ec943a541d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\ivy">
+      <UniqueIdentifier>{28c007e2-5c10-4cfa-8aad-576d1c085b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\ioa">
+      <UniqueIdentifier>{96e17efc-76b2-48ef-a1ba-3afcc2b8f70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\aig">
+      <UniqueIdentifier>{c9ed79c1-1980-43ac-ad9e-f9c5a6e76011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\saig">
+      <UniqueIdentifier>{6feb7f5d-d79c-4cfc-9e7c-849d5f7f0584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\gia">
+      <UniqueIdentifier>{2885a153-5504-4a9c-98f6-b80fcd16b53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\miniaig">
+      <UniqueIdentifier>{28263f81-6299-425e-bde0-c4e772229d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bool">
+      <UniqueIdentifier>{236557ee-bf67-4332-9fb9-407547c0405e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bool\bdc">
+      <UniqueIdentifier>{036decc2-c939-4b68-9a6d-37b60f5a4b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bool\dec">
+      <UniqueIdentifier>{eee71bd8-54f4-4b13-bc15-73e23a4efbd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bool\deco">
+      <UniqueIdentifier>{67e9966b-f2a4-4798-99c6-d9e2f0df2b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bool\kit">
+      <UniqueIdentifier>{c0bddff7-3c3d-49be-9aea-43873a156403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bool\lucky">
+      <UniqueIdentifier>{a14f8f45-9c54-497f-aad4-3c8b48df0d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bool\rsb">
+      <UniqueIdentifier>{712f5448-aeae-441b-849a-39379c3a7909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove">
+      <UniqueIdentifier>{73580715-f994-4584-876a-d33f62fb6a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\bbr">
+      <UniqueIdentifier>{d7561232-be16-4847-bc07-91510a2c0886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\cec">
+      <UniqueIdentifier>{c5c78f16-25ce-409d-8ff8-fea02dafa5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\dch">
+      <UniqueIdentifier>{0dc4863b-deba-4e90-bd67-f4e078b835bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\fra">
+      <UniqueIdentifier>{ca055a2f-17d1-413a-b1fa-2a87da6e1642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\fraig">
+      <UniqueIdentifier>{2166f273-4b05-4023-b18d-39260323eb98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\int">
+      <UniqueIdentifier>{493ccb9b-8147-43c9-b687-45dd7a7584c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\live">
+      <UniqueIdentifier>{e31851bd-696f-4fbb-b48e-6270eb98810d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\llb">
+      <UniqueIdentifier>{e85a9f6c-7ed7-42f0-8c51-4e5d688a0c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\pdr">
+      <UniqueIdentifier>{8f9435d2-7314-494c-ab0c-bbdd39b57d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\ssw">
+      <UniqueIdentifier>{31176fcb-6653-4b0d-8de5-ed447c4b8fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\abs">
+      <UniqueIdentifier>{81e38d91-4784-4f8b-a736-be8cc6d7e1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prove\ssc">
+      <UniqueIdentifier>{1cef6174-89dc-46b3-933b-91c3c57cafcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5bc94534-e619-4867-ad8b-bb6362794a36}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Source Files\vqm">
+      <UniqueIdentifier>{6c37f3fd-b000-4126-8f7b-10a72eebf091}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\base\abc\abc.h">
+      <Filter>Source Files\base\abc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\abc\abcInt.h">
+      <Filter>Source Files\base\abc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\cmd\cmd.h">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\cmd\cmdInt.h">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\io\ioabc.h">
+      <Filter>Source Files\base\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\io\ioInt.h">
+      <Filter>Source Files\base\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\main\main.h">
+      <Filter>Source Files\base\main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\main\mainInt.h">
+      <Filter>Source Files\base\main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\ver\ver.h">
+      <Filter>Source Files\base\ver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\cudd\cudd.h">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\cudd\cuddInt.h">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\epd\epd.h">
+      <Filter>Source Files\bdd\epd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\mtr\mtr.h">
+      <Filter>Source Files\bdd\mtr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\mtr\mtrInt.h">
+      <Filter>Source Files\bdd\mtr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\parse\parse.h">
+      <Filter>Source Files\bdd\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\parse\parseInt.h">
+      <Filter>Source Files\bdd\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\dsd\dsd.h">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\dsd\dsdInt.h">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\reo\reo.h">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bdd\cas\cas.h">
+      <Filter>Source Files\bdd\cas</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\msat\msat.h">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\msat\msatInt.h">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\csat\csat_apis.h">
+      <Filter>Source Files\sat\csat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satClause.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satMem.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satProof2.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satSolver.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satSolver2.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satStore.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satTruth.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bsat\satVec.h">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\proof\pr.h">
+      <Filter>Source Files\sat\proof</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\psat\m114p.h">
+      <Filter>Source Files\sat\psat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\psat\m114p_types.h">
+      <Filter>Source Files\sat\psat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\lsat\solver.h">
+      <Filter>Source Files\sat\lsat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\cnf\cnf.h">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sat\bmc\bmc.h">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\fxu\fxu.h">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\fxu\fxuInt.h">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\rwr\rwr.h">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\cut\cut.h">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\cut\cutInt.h">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\cut\cutList.h">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\sim\sim.h">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\ret\retInt.h">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\res\res.h">
+      <Filter>Source Files\opt\res</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\res\resInt.h">
+      <Filter>Source Files\opt\res</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\lpk\lpk.h">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\lpk\lpkInt.h">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\mfs\mfs.h">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\mfs\mfsInt.h">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\cgt\cgt.h">
+      <Filter>Source Files\opt\cgt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\cgt\cgtInt.h">
+      <Filter>Source Files\opt\cgt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\csw\csw.h">
+      <Filter>Source Files\opt\csw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\csw\cswInt.h">
+      <Filter>Source Files\opt\csw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\dar\dar.h">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\dar\darInt.h">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\rwt\rwt.h">
+      <Filter>Source Files\opt\rwt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\nwk\ntlnwk.h">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\nwk\nwk.h">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\nwk\nwkMerge.h">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\dau\dau.h">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\dau\dauInt.h">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\sfm\sfm.h">
+      <Filter>Source Files\opt\sfm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opt\sfm\sfmInt.h">
+      <Filter>Source Files\opt\sfm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\mapper\mapper.h">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\mapper\mapperInt.h">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\mio\exp.h">
+      <Filter>Source Files\map\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\mio\mio.h">
+      <Filter>Source Files\map\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\mio\mioInt.h">
+      <Filter>Source Files\map\mio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\super\super.h">
+      <Filter>Source Files\map\super</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\super\superInt.h">
+      <Filter>Source Files\map\super</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\if\if.h">
+      <Filter>Source Files\map\if</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\amap\amap.h">
+      <Filter>Source Files\map\amap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\amap\amapInt.h">
+      <Filter>Source Files\map\amap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\cov\cov.h">
+      <Filter>Source Files\map\cov</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\cov\covInt.h">
+      <Filter>Source Files\map\cov</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\scl\scl.h">
+      <Filter>Source Files\map\scl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\scl\sclInt.h">
+      <Filter>Source Files\map\scl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map\scl\sclMan.h">
+      <Filter>Source Files\map\scl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\extra\extra.h">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\extra\extraBdd.h">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\st\st.h">
+      <Filter>Source Files\misc\st</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\st\stmm.h">
+      <Filter>Source Files\misc\st</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\mvc\mvc.h">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vec.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecAtt.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecBit.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecFlt.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecHsh.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecInt.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecMem.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecPtr.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecQue.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecSet.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecStr.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecVec.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecWec.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\vec\vecWrd.h">
+      <Filter>Source Files\misc\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\util\abc_global.h">
+      <Filter>Source Files\misc\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\util\util_hack.h">
+      <Filter>Source Files\misc\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\util\utilCex.h">
+      <Filter>Source Files\misc\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\util\utilMem.h">
+      <Filter>Source Files\misc\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\util\utilNam.h">
+      <Filter>Source Files\misc\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\util\utilSignal.h">
+      <Filter>Source Files\misc\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\util\utilTruth.h">
+      <Filter>Source Files\misc\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\nm\nm.h">
+      <Filter>Source Files\misc\nm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\nm\nmInt.h">
+      <Filter>Source Files\misc\nm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\hash\hash.h">
+      <Filter>Source Files\misc\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\hash\hashFlt.h">
+      <Filter>Source Files\misc\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\hash\hashInt.h">
+      <Filter>Source Files\misc\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\hash\hashPtr.h">
+      <Filter>Source Files\misc\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\bzlib\bzlib.h">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\bzlib\bzlib_private.h">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\crc32.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\deflate.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\gzguts.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\inffast.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\inffixed.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\inflate.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\inftrees.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\trees.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\zconf.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\zlib.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\zlib\zutil.h">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\bar\bar.h">
+      <Filter>Source Files\misc\bar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\bbl\bblif.h">
+      <Filter>Source Files\misc\bbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\mem\mem.h">
+      <Filter>Source Files\misc\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\mem\mem2.h">
+      <Filter>Source Files\misc\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\tim\tim.h">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\tim\timInt.h">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\hop\hop.h">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\ivy\ivy.h">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\ioa\ioa.h">
+      <Filter>Source Files\ai\ioa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\aig\aig.h">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\saig\saig.h">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\gia\gia.h">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\gia\giaAig.h">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aig\miniaig\miniaig.h">
+      <Filter>Source Files\ai\miniaig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\bdc\bdc.h">
+      <Filter>Source Files\bool\bdc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\bdc\bdcInt.h">
+      <Filter>Source Files\bool\bdc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\dec\dec.h">
+      <Filter>Source Files\bool\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\deco\deco.h">
+      <Filter>Source Files\bool\deco</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\kit\cloud.h">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\kit\kit.h">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\lucky\lucky.h">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\lucky\luckyInt.h">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\rsb\rsb.h">
+      <Filter>Source Files\bool\rsb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bool\rsb\rsbInt.h">
+      <Filter>Source Files\bool\rsb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\bbr\bbr.h">
+      <Filter>Source Files\prove\bbr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\cec\cec.h">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\cec\cecInt.h">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\dch\dch.h">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\dch\dchInt.h">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\fra\fra.h">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\fraig\fraig.h">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\fraig\fraigInt.h">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\int\int.h">
+      <Filter>Source Files\prove\int</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\int\intInt.h">
+      <Filter>Source Files\prove\int</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\llb\llb.h">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\llb\llbInt.h">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\pdr\pdr.h">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\pdr\pdrInt.h">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\ssw\ssw.h">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\ssw\sswInt.h">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\abs\abs.h">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\abs\absRef.h">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\ssc\ssc.h">
+      <Filter>Source Files\prove\ssc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proof\ssc\sscInt.h">
+      <Filter>Source Files\prove\ssc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\CometPLL.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\Wire.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\SubcktModelInfo.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\Reg.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\RamBlock.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\Port.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\PLL.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\OutPort.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\Node.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\Model.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\LUT.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\LE.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\Latch.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vqm\InPort.h">
+      <Filter>Source Files\vqm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cpp_Interface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\base\abc\abcAig.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcBlifMv.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcCheck.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcDfs.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcFanio.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcFanOrder.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcFunc.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcHie.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcHieCec.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcHieNew.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcLatch.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcLib.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcMinBase.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcNames.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcNetlist.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcNtk.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcObj.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcRefs.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcShow.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcSop.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abc\abcUtil.c">
+      <Filter>Source Files\base\abc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abc.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcAttach.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcAuto.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcBalance.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcBidec.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcBm.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcBmc.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcCas.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcCascade.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcCollapse.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcCut.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcDar.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcDebug.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcDec.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcDress.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcDress2.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcDsd.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcExtract.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcFraig.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcFx.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcFxu.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcGen.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcHaig.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcIf.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcIfif.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcIfMux.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcIvy.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcLog.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcLut.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcLutmin.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMap.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMeasure.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMerge.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMffc.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMfs.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMini.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMiter.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMulti.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcMv.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcNpn.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcNpnSave.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcNtbdd.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcOdc.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcOrder.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcPart.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcPrint.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcProve.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcQbf.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcQuant.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcReach.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRec.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRec2.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRec3.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcReconv.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRefactor.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRenode.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcReorder.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRestruct.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcResub.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRewrite.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcRr.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcSat.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcScorr.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcSense.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcSpeedup.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcStrash.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcSweep.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcSymm.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcTim.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcTiming.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcUnate.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcUnreach.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcVerify.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\abci\abcXsim.c">
+      <Filter>Source Files\base\abci</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmd.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdAlias.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdApi.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdFlag.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdHist.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdLoad.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdPlugin.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdStarter.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\cmd\cmdUtils.c">
+      <Filter>Source Files\base\cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\io.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadAiger.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadBaf.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadBblif.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadBench.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadBlif.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadBlifAig.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadBlifMv.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadDsd.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadEdif.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadEqn.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadPla.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioReadVerilog.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioUtil.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteAiger.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteBaf.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteBblif.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteBench.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteBlif.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteBlifMv.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteBook.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteCnf.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteDot.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteEqn.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteGml.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteList.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWritePla.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteSmv.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\io\ioWriteVerilog.c">
+      <Filter>Source Files\base\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\main\libSupport.c">
+      <Filter>Source Files\base\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\main\mainFrame.c">
+      <Filter>Source Files\base\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\main\mainInit.c">
+      <Filter>Source Files\base\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\main\mainLib.c">
+      <Filter>Source Files\base\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\main\mainUtils.c">
+      <Filter>Source Files\base\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\ver\verCore.c">
+      <Filter>Source Files\base\ver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\ver\verFormula.c">
+      <Filter>Source Files\base\ver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\ver\verParse.c">
+      <Filter>Source Files\base\ver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\ver\verStream.c">
+      <Filter>Source Files\base\ver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\test\test.c">
+      <Filter>Source Files\base\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAddAbs.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAddApply.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAddFind.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAddInv.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAddIte.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAddNeg.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAddWalsh.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAndAbs.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAnneal.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddApa.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddAPI.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddApprox.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddBddAbs.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddBddCorr.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddBddIte.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddBridge.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddCache.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddCheck.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddClip.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddCof.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddCompose.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddDecomp.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddEssent.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddExact.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddExport.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddGenCof.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddGenetic.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddGroup.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddHarwell.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddInit.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddInteract.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddLCache.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddLevelQ.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddLinear.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddLiteral.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddMatMult.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddPriority.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddRead.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddRef.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddReorder.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddSat.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddSign.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddSolve.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddSplit.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddSubsetHB.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddSubsetSP.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddSymmetry.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddTable.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddUtil.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddWindow.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddCount.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddFuncs.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddGroup.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddIsop.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddLin.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddMisc.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddPort.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddReord.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddSetop.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddSymm.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cudd\cuddZddUtil.c">
+      <Filter>Source Files\bdd\cudd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\epd\epd.c">
+      <Filter>Source Files\bdd\epd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\mtr\mtrBasic.c">
+      <Filter>Source Files\bdd\mtr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\mtr\mtrGroup.c">
+      <Filter>Source Files\bdd\mtr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\parse\parseCore.c">
+      <Filter>Source Files\bdd\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\parse\parseEqn.c">
+      <Filter>Source Files\bdd\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\parse\parseStack.c">
+      <Filter>Source Files\bdd\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\dsd\dsdApi.c">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\dsd\dsdCheck.c">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\dsd\dsdLocal.c">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\dsd\dsdMan.c">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\dsd\dsdProc.c">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\dsd\dsdTree.c">
+      <Filter>Source Files\bdd\dsd</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoApi.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoCore.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoProfile.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoShuffle.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoSift.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoSwap.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoTest.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoTransfer.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\reo\reoUnits.c">
+      <Filter>Source Files\bdd\reo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cas\casCore.c">
+      <Filter>Source Files\bdd\cas</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bdd\cas\casDec.c">
+      <Filter>Source Files\bdd\cas</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatActivity.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatClause.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatClauseVec.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatMem.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatOrderH.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatQueue.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatRead.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatSolverApi.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatSolverCore.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatSolverIo.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatSolverSearch.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatSort.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\msat\msatVec.c">
+      <Filter>Source Files\sat\msat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\csat\csat_apis.c">
+      <Filter>Source Files\sat\csat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satInter.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satInterA.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satInterB.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satInterP.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satMem.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satProof.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satSolver.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satSolver2.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satStore.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satTrace.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satTruth.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bsat\satUtil.c">
+      <Filter>Source Files\sat\bsat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\proof\pr.c">
+      <Filter>Source Files\sat\proof</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfCore.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfCut.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfData.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfFast.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfMan.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfMap.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfPost.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfUtil.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\cnf\cnfWrite.c">
+      <Filter>Source Files\sat\cnf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmc.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcBmc.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcBmc2.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcBmc3.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcCexCut.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcCexDepth.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcCexMin1.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcCexMin2.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcCexTools.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sat\bmc\bmcUnroll.c">
+      <Filter>Source Files\sat\bmc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxu.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuCreate.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuHeapD.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuHeapS.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuList.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuMatrix.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuPair.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuPrint.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuReduce.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuSelect.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuSingle.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\fxu\fxuUpdate.c">
+      <Filter>Source Files\opt\fxu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrDec.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrEva.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrExp.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrLib.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrMan.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrPrint.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrTemp.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwr\rwrUtil.c">
+      <Filter>Source Files\opt\rwr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutApi.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutCut.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutExpand.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutMan.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutMerge.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutNode.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutOracle.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutPre22.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutSeq.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cut\cutTruth.c">
+      <Filter>Source Files\opt\cut</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simMan.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSat.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSeq.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSupp.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSwitch.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSym.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSymSat.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSymSim.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simSymStr.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sim\simUtils.c">
+      <Filter>Source Files\opt\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\ret\retArea.c">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\ret\retCore.c">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\ret\retDelay.c">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\ret\retFlow.c">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\ret\retIncrem.c">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\ret\retInit.c">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\ret\retLvalue.c">
+      <Filter>Source Files\opt\ret</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\res\resCore.c">
+      <Filter>Source Files\opt\res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\res\resDivs.c">
+      <Filter>Source Files\opt\res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\res\resFilter.c">
+      <Filter>Source Files\opt\res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\res\resSat.c">
+      <Filter>Source Files\opt\res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\res\resSim.c">
+      <Filter>Source Files\opt\res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\res\resStrash.c">
+      <Filter>Source Files\opt\res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\res\resWin.c">
+      <Filter>Source Files\opt\res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkAbcDec.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkAbcDsd.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkAbcMux.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkAbcUtil.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkCore.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkCut.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkMan.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkMap.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkMulti.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkMux.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\lpk\lpkSets.c">
+      <Filter>Source Files\opt\lpk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsCore.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsDiv.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsInter.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsMan.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsResub.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsSat.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsStrash.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\mfs\mfsWin.c">
+      <Filter>Source Files\opt\mfs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cgt\cgtAig.c">
+      <Filter>Source Files\opt\cgt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cgt\cgtCore.c">
+      <Filter>Source Files\opt\cgt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cgt\cgtDecide.c">
+      <Filter>Source Files\opt\cgt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cgt\cgtMan.c">
+      <Filter>Source Files\opt\cgt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\cgt\cgtSat.c">
+      <Filter>Source Files\opt\cgt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\csw\cswCore.c">
+      <Filter>Source Files\opt\csw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\csw\cswCut.c">
+      <Filter>Source Files\opt\csw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\csw\cswMan.c">
+      <Filter>Source Files\opt\csw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\csw\cswTable.c">
+      <Filter>Source Files\opt\csw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darBalance.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darCore.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darCut.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darData.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darLib.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darMan.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darPrec.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darRefact.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darResub.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dar\darScript.c">
+      <Filter>Source Files\opt\dar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwt\rwtDec.c">
+      <Filter>Source Files\opt\rwt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwt\rwtMan.c">
+      <Filter>Source Files\opt\rwt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\rwt\rwtUtil.c">
+      <Filter>Source Files\opt\rwt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkAig.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkBidec.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkCheck.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkDfs.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkFanio.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkFlow.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkMan.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkMap.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkMerge.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkObj.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkSpeedup.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkStrash.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkTiming.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\nwk\nwkUtil.c">
+      <Filter>Source Files\opt\nwk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dau.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dauCanon.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dauCore.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dauDivs.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dauDsd.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dauEnum.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dauMerge.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\dau\dauTree.c">
+      <Filter>Source Files\opt\dau</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sfm\sfmCnf.c">
+      <Filter>Source Files\opt\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sfm\sfmCore.c">
+      <Filter>Source Files\opt\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sfm\sfmNtk.c">
+      <Filter>Source Files\opt\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sfm\sfmSat.c">
+      <Filter>Source Files\opt\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opt\sfm\sfmWin.c">
+      <Filter>Source Files\opt\sfm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapper.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperCanon.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperCore.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperCreate.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperCut.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperCutUtils.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperFanout.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperLib.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperMatch.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperRefs.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperSuper.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperSwitch.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperTable.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperTime.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperTree.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperTruth.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperUtils.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mapper\mapperVec.c">
+      <Filter>Source Files\map\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mio\mio.c">
+      <Filter>Source Files\map\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mio\mioApi.c">
+      <Filter>Source Files\map\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mio\mioFunc.c">
+      <Filter>Source Files\map\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mio\mioParse.c">
+      <Filter>Source Files\map\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mio\mioRead.c">
+      <Filter>Source Files\map\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mio\mioSop.c">
+      <Filter>Source Files\map\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\mio\mioUtils.c">
+      <Filter>Source Files\map\mio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\super\super.c">
+      <Filter>Source Files\map\super</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\super\superAnd.c">
+      <Filter>Source Files\map\super</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\super\superGate.c">
+      <Filter>Source Files\map\super</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifCom.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifCore.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifCut.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifDec07.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifDec08.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifDec10.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifDec16.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifDsd.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifLibBox.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifLibLut.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifMan.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifMap.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifReduce.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifSeq.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifTime.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifTruth.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\if\ifUtil.c">
+      <Filter>Source Files\map\if</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapCore.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapGraph.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapLib.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapLiberty.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapMan.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapMatch.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapMerge.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapOutput.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapParse.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapPerm.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapRead.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapRule.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\amap\amapUniq.c">
+      <Filter>Source Files\map\amap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\cov\covBuild.c">
+      <Filter>Source Files\map\cov</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\cov\covCore.c">
+      <Filter>Source Files\map\cov</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\cov\covMan.c">
+      <Filter>Source Files\map\cov</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\cov\covMinEsop.c">
+      <Filter>Source Files\map\cov</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\cov\covMinMan.c">
+      <Filter>Source Files\map\cov</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\cov\covMinSop.c">
+      <Filter>Source Files\map\cov</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\cov\covMinUtil.c">
+      <Filter>Source Files\map\cov</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\scl\scl.c">
+      <Filter>Source Files\map\scl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\scl\sclBuff.c">
+      <Filter>Source Files\map\scl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\scl\sclFile.c">
+      <Filter>Source Files\map\scl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\scl\sclLoad.c">
+      <Filter>Source Files\map\scl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\scl\sclTime.c">
+      <Filter>Source Files\map\scl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\scl\sclUpsize.c">
+      <Filter>Source Files\map\scl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map\scl\sclUtil.c">
+      <Filter>Source Files\map\scl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddAuto.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddCas.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddImage.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddKmap.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddMisc.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddSymm.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddTime.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraBddUnate.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilBitMatrix.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilCanon.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilFile.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilMemory.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilMisc.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilProgress.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilReader.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilTruth.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\extra\extraUtilUtil.c">
+      <Filter>Source Files\misc\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\st\st.c">
+      <Filter>Source Files\misc\st</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\st\stmm.c">
+      <Filter>Source Files\misc\st</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvc.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcApi.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcCompare.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcContain.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcCover.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcCube.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcDivide.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcDivisor.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcList.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcLits.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcMan.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcOpAlg.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcOpBool.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcPrint.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcSort.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mvc\mvcUtils.c">
+      <Filter>Source Files\misc\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\util\utilBridge.c">
+      <Filter>Source Files\misc\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\util\utilCex.c">
+      <Filter>Source Files\misc\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\util\utilFile.c">
+      <Filter>Source Files\misc\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\util\utilMem.c">
+      <Filter>Source Files\misc\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\util\utilNam.c">
+      <Filter>Source Files\misc\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\util\utilSignal.c">
+      <Filter>Source Files\misc\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\util\utilSort.c">
+      <Filter>Source Files\misc\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\nm\nmApi.c">
+      <Filter>Source Files\misc\nm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\nm\nmTable.c">
+      <Filter>Source Files\misc\nm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bzlib\blocksort.c">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bzlib\bzlib.c">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bzlib\compress.c">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bzlib\crctable.c">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bzlib\decompress.c">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bzlib\huffman.c">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bzlib\randtable.c">
+      <Filter>Source Files\misc\bzlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\adler32.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\compress_.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\crc32.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\deflate.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\gzclose.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\gzlib.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\gzread.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\gzwrite.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\infback.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\inffast.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\inflate.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\inftrees.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\trees.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\uncompr.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\zlib\zutil.c">
+      <Filter>Source Files\misc\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bar\bar.c">
+      <Filter>Source Files\misc\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\bbl\bblif.c">
+      <Filter>Source Files\misc\bbl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\mem\mem.c">
+      <Filter>Source Files\misc\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\tim\tim.c">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\tim\timBox.c">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\tim\timDump.c">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\tim\timMan.c">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\tim\timTime.c">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\tim\timTrav.c">
+      <Filter>Source Files\misc\tim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopBalance.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopCheck.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopDfs.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopMan.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopMem.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopObj.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopOper.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopTable.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopTruth.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\hop\hopUtil.c">
+      <Filter>Source Files\ai\hop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyBalance.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyCanon.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyCheck.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyCut.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyCutTrav.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyDfs.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyDsd.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyFanout.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyFastMap.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyFraig.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyHaig.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyMan.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyMem.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyMulti.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyObj.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyOper.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyResyn.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyRwr.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivySeq.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyShow.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyTable.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ivy\ivyUtil.c">
+      <Filter>Source Files\ai\ivy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ioa\ioaReadAig.c">
+      <Filter>Source Files\ai\ioa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ioa\ioaUtil.c">
+      <Filter>Source Files\ai\ioa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\ioa\ioaWriteAig.c">
+      <Filter>Source Files\ai\ioa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigCanon.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigCheck.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigCuts.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigDfs.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigDoms.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigDup.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigFact.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigFanout.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigFrames.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigInter.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigJust.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigMan.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigMem.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigMffc.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigObj.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigOper.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigOrder.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigPack.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigPart.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigPartReg.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigPartSat.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigRepr.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigRet.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigRetF.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigScl.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigShow.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigSplit.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigTable.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigTiming.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigTruth.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigTsim.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigUtil.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\aig\aigWin.c">
+      <Filter>Source Files\ai\aig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigCone.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigConstr.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigConstr2.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigDual.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigDup.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigInd.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigIoa.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigIso.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigIsoFast.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigIsoSlow.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigMiter.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigOutDec.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigPhase.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigRetFwd.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigRetMin.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigRetStep.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigScl.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigSimFast.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigSimMv.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigSimSeq.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigStrSim.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigSwitch.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigSynch.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigTempor.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigTrans.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\saig\saigWnd.c">
+      <Filter>Source Files\ai\saig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\gia.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaAig.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaAiger.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaAigerExt.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaBidec.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaCCof.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaCex.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaChoice.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaCof.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaCone.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaCSat.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaCSatOld.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaCTas.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaDfs.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaDup.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaEmbed.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaEnable.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaEquiv.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaEra.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaEra2.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaFanout.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaForce.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaFrames.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaFront.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaGlitch.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaHash.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaIf.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaIso.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaIso2.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaMan.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaMem.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaMfs.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaMini.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaMuxes.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaPat.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaRetime.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaScl.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaShrink.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaShrink6.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSim.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSim2.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSort.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSpeedup.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaStg.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSupMin.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSweep.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSweeper.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaSwitch.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaTest.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaTim.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaTruth.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaTsim.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aig\gia\giaUtil.c">
+      <Filter>Source Files\ai\gia</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\bdc\bdcCore.c">
+      <Filter>Source Files\bool\bdc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\bdc\bdcDec.c">
+      <Filter>Source Files\bool\bdc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\bdc\bdcSpfd.c">
+      <Filter>Source Files\bool\bdc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\bdc\bdcTable.c">
+      <Filter>Source Files\bool\bdc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\dec\decAbc.c">
+      <Filter>Source Files\bool\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\dec\decFactor.c">
+      <Filter>Source Files\bool\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\dec\decMan.c">
+      <Filter>Source Files\bool\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\dec\decPrint.c">
+      <Filter>Source Files\bool\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\dec\decUtil.c">
+      <Filter>Source Files\bool\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\cloud.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kit_.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitAig.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitBdd.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitCloud.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitDec.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitDsd.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitFactor.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitGraph.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitHop.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitIsop.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitPerm.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitPla.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitSop.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\kit\kitTruth.c">
+      <Filter>Source Files\bool\kit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\lucky\lucky.c">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\lucky\luckyFast16.c">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\lucky\luckyFast6.c">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\lucky\luckyRead.c">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\lucky\luckySimple.c">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\lucky\luckySwap.c">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\lucky\luckySwapIJ.c">
+      <Filter>Source Files\bool\lucky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\rsb\rsbDec6.c">
+      <Filter>Source Files\bool\rsb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bool\rsb\rsbMan.c">
+      <Filter>Source Files\bool\rsb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\bbr\bbrCex.c">
+      <Filter>Source Files\prove\bbr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\bbr\bbrImage.c">
+      <Filter>Source Files\prove\bbr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\bbr\bbrNtbdd.c">
+      <Filter>Source Files\prove\bbr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\bbr\bbrReach.c">
+      <Filter>Source Files\prove\bbr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecCec.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecChoice.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecClass.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecCore.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecCorr.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecIso.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecMan.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecPat.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecSeq.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecSolve.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecSweep.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\cec\cecSynth.c">
+      <Filter>Source Files\prove\cec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchAig.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchChoice.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchClass.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchCnf.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchCore.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchMan.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchSat.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchSim.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchSimSat.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\dch\dchSweep.c">
+      <Filter>Source Files\prove\dch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraBmc.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraCec.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraClass.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraClau.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraClaus.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraCnf.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraCore.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraHot.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraImp.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraInd.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraIndVer.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraLcr.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraMan.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraPart.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraSat.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraSec.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fra\fraSim.c">
+      <Filter>Source Files\prove\fra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigApi.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigCanon.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigChoice.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigFanout.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigFeed.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigMan.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigMem.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigNode.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigPrime.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigSat.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigTable.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigUtil.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\fraig\fraigVec.c">
+      <Filter>Source Files\prove\fraig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intCheck.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intContain.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intCore.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intCtrex.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intDup.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intFrames.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intInter.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intM114.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intMan.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\int\intUtil.c">
+      <Filter>Source Files\prove\int</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\arenaViolation.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\combination.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\disjunctiveMonotone.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\kLiveConstraints.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\kliveness.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\liveness.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\liveness_sim.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\ltl_parser.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\live\monotone.c">
+      <Filter>Source Files\prove\live</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Cluster.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Constr.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Core.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Group.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Hint.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Man.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Matrix.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Pivot.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Reach.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb1Sched.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb2Bad.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb2Core.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb2Driver.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb2Dump.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb2Flow.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb2Image.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb3Image.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb3Nonlin.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb4Cex.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb4Cluster.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb4Image.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb4Map.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb4Nonlin.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\llb\llb4Sweep.c">
+      <Filter>Source Files\prove\llb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrClass.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrCnf.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrCore.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrInv.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrMan.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrSat.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrTsim.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\pdr\pdrUtil.c">
+      <Filter>Source Files\prove\pdr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswAig.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswBmc.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswClass.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswCnf.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswConstr.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswCore.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswDyn.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswFilter.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswIslands.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswLcorr.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswMan.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswPairs.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswPart.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswRarity.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswRarity2.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswSat.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswSemi.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswSim.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswSimSat.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswSweep.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssw\sswUnique.c">
+      <Filter>Source Files\prove\ssw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\abs.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absDup.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absGla.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absGlaOld.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absIter.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absOldCex.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absOldRef.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absOldSat.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absOldSim.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absOut.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absPth.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absRef.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absRefSelect.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absRpm.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absRpmOld.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absUtil.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\abs\absVta.c">
+      <Filter>Source Files\prove\abs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssc\sscClass.c">
+      <Filter>Source Files\prove\ssc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssc\sscCore.c">
+      <Filter>Source Files\prove\ssc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssc\sscSat.c">
+      <Filter>Source Files\prove\ssc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssc\sscSim.c">
+      <Filter>Source Files\prove\ssc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proof\ssc\sscUtil.c">
+      <Filter>Source Files\prove\ssc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\Wire.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\SubcktModelInfo.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\Reg.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\RamBlock.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\Port.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\PLL.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\OutPort.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\Node.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\Model.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\LUT.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\LE.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\Latch.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\InPort.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\CometPLL.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\CometMem.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vqm\BlifToVQM.cpp">
+      <Filter>Source Files\vqm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cpp_Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+Fitter Status			Successful
+PASSKEY Version			2.6
+Top-level Entity Name		top
+Family				Comet 02G
+Total logic elements		641 / 18240 (3 %)
+Total memories			0 / 192 (0 %)
+Total DSPs			0 / 96 (0 %)
+Total PLLs			0 / 8 (0 %)
+Total pins			0 / 222 (0 %)
+Total LUT-only LCs		641
+Total Register LCs		0
+Total Register-only LCs		0
+Total LUT/Register LCs		0
+
+Run-Time : 3.235
+
+Run-Time : 3.109
+
+Run-Time : 2.655
